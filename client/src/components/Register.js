@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Button, Form, Segment, Header } from 'semantic-ui-react';
 import { handleRegister} from '../actions/auth';
 import { connect } from 'react-redux';
+import { Card, Row, Col } from 'react-materialize';
 
 class Register extends Component {
   state = { email: '', password: '', passwordConfirmation: '' }
@@ -25,7 +26,8 @@ class Register extends Component {
     const { email, password, passwordConfirmation } = this.state;
 
     return(
-      <Segment basic>
+    <div className="row">
+      <Segment className="col s12 m6 l4" basic>
         <Header as='h1' textAlign='center'>Register</Header>
         <Form onSubmit={this.handleSubmit}>
           <Form.Field>
@@ -66,6 +68,7 @@ class Register extends Component {
           </Segment>
         </Form>
       </Segment>
+    </div>
     )
   }
 }

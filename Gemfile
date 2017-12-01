@@ -27,6 +27,9 @@ gem 'puma', '~> 3.7'
 gem 'devise'
 gem 'devise_token_auth'
 gem 'omniauth'
+gem 'font-awesome-sass' 
+gem 'sass-rails'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

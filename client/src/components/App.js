@@ -11,6 +11,9 @@ const App = () => (
     <NavBar />
     <Switch>
       <Route exact path="/" component={Home} />
+      <Route exact path="/Game" component={Game} />
+      <Route exact path="/Ladder" component={Ladder} />
+      <Route exact path="/About" component={About} />
       <Route exact path="/login" component={Login} />
       <Route exact path="/register" component={Register} />
       <Route component={NoMatch} />

@@ -1,0 +1,76 @@
+#bolt{
+  margin-left:50%;
+  margin-right:50%;
+}
+
+#play-button{
+  margin-top:10px;
+  font-size: 3vw;
+  color: yellowgreen;
+}
+#play-button:hover{
+  color: #025e03;
+}
+.style{
+  font-family: 'Open Sans', sans-serif;
+}
+.title{
+  margin-top:1%;
+}
+
+.test{
+  color:blue;
+}
+
+.information{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.border{
+  border-top: solid;
+  border-top-color: #dededf;
+  border-bottom: solid;
+  border-bottom-color: #dededf;
+}
+
+.border-top{
+  border-top: solid;
+  border-top-color: gainsboro;
+}
+
+.parallax-container{
+  height: 300px !important;
+}
+
+.page-footer{
+  background-color: #ffffff !important;
+}
+
+.row .col.l6 {
+    width: 100% !important;
+}
+
+.bold{
+  font-weight:bold;
+}
+
+.footer-link{
+  color: #5baa63;
+}
+
+.footer-link:hover{
+  color: #025e03;
+}
+
+.footer-copyright{
+  text-align: center;
+  color: black !important;
+}
+
+.about-bg{
+    background-image: url('http://i1028.photobucket.com/albums/y348/f1nalfortune/About_BG_zpsvwyz7c38.jpg?t=1512070809');
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}

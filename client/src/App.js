@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Home from './components/Home';
+import Game from './components/Game';
+import About from './components/About';
 import NoMatch from './components/NoMatch';
 import NavBar from './components/NavBar';
 import Login from './components/Login';
@@ -13,7 +15,9 @@ const App = () => (
         <NavBar />
         <FetchUser>
           <Switch>
-             <ProtectedRoute exact path="/" component={Home} />
+             <Route exact path="/" component={Home} />
+             <Route exact path="/game" component={Game}/>
+             <Route exact path="/about" component={About}/>
              <Route exact path="/login" component={Login} />
              <Route exact path="/register" component={Register} />
              <Route component={NoMatch} />
@@ -23,3 +27,4 @@ const App = () => (
 )
 
 export default App;
+

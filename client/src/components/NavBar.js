@@ -22,7 +22,7 @@ class NavBar extends Component {
           <Link to='/login'>
             <Menu.Item
               id='login'
-              name='login'
+              name='admin'
               active={location.pathname === '/login'}
             />
           </Link>
@@ -48,7 +48,21 @@ class NavBar extends Component {
               id='home'
               active={this.props.location.pathname === '/'}
           />
-        </Link>
+          </Link>
+          <Link to='/game'>
+            <Menu.Item
+              name='game'
+              id='game'
+              active={this.props.location.pathname === '/game'}
+            />
+          </Link>
+          <Link to='/about'>
+            <Menu.Item
+              name='about'
+              id='about'
+              active={this.props.location.pathname === '/about'}
+          />
+          </Link>
           { this.rightNavItems() }
         </Menu>
       </div>
