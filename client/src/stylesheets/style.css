@@ -1,6 +1,19 @@
+#photo-id{
+    height: 50%;
+    width: 80%;
+}
+#screenshot{
+  width: 100%;
+}
+
 #bolt{
   margin-left:50%;
   margin-right:50%;
+}
+
+#meet-the-team{
+  color: white;
+  text-shadow: 2px 3px black;
 }
 
 #play-button{
@@ -11,11 +24,16 @@
 #play-button:hover{
   color: #025e03;
 }
+#nav-bar{
+  padding-bottom: 4px;
+}
+
 .style{
   font-family: 'Open Sans', sans-serif;
 }
 .title{
   margin-top:1%;
+  text-shadow: 2px 3px gainsboro;
 }
 
 .test{
@@ -23,8 +41,8 @@
 }
 
 .information{
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .border{

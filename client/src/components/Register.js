@@ -3,6 +3,8 @@ import { Button, Form, Segment, Header } from 'semantic-ui-react';
 import { handleRegister} from '../actions/auth';
 import { connect } from 'react-redux';
 import { Card, Row, Col } from 'react-materialize';
+import { Parallax } from 'react-materialize';
+import { Footer } from 'react-materialize';
 
 class Register extends Component {
   state = { email: '', password: '', passwordConfirmation: '' }
@@ -26,8 +28,10 @@ class Register extends Component {
     const { email, password, passwordConfirmation } = this.state;
 
     return(
+<div>
+  <div className="container">
     <div className="row">
-      <Segment className="col s12 m6 l4" basic>
+      <Segment className="col s12 m8 l8 offset-l2" basic>
         <Header as='h1' textAlign='center'>Register</Header>
         <Form onSubmit={this.handleSubmit}>
           <Form.Field>
@@ -69,6 +73,27 @@ class Register extends Component {
         </Form>
       </Segment>
     </div>
+  </div>
+    <Parallax className="border" imageSrc="http://i1028.photobucket.com/albums/y348/f1nalfortune/home_zpszwzbua01.jpg" strength={400}>
+    </Parallax>
+    <Footer 
+      copyrights={ <i className="fa fa-copyright" aria-hidden="true">BananaBoltProductions</i>}
+      className='footer-override'
+    >
+      <div className="col s3 m3 l3 center bold">
+        <a className="bold footer-link" href="/">Home</a>
+      </div>
+      <div className="col s3 m3 l3 center">
+        <a className="bold footer-link" href="/Game">Game</a>
+      </div>
+      <div className="col s3 m3 l3 center">
+        <a className="bold footer-link" href="/Ladder">Ladder</a>
+      </div>
+      <div className="col s3 m3 l3 center">
+        <a className="bold footer-link" href="/About">About</a>
+      </div>
+    </Footer>
+  </div>
     )
   }
 }

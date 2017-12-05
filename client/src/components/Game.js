@@ -22,8 +22,8 @@ class Game extends React.Component{
             </span>
           </div>
           <br />
-          <p className="center"><a id="play-button" href="http://www.bananabolt.com" target="_blank">Click Here to Play!</a></p>
-          <Parallax className="border" imageSrc="http://i1028.photobucket.com/albums/y348/f1nalfortune/home_zpskz5vzcvu.jpg?t=1511991916" strength={400}>
+          <p className="center"><a id="play-button" href="http://www.bananabolt.com" target="_blank" rel="noopener noreferrer">Click Here to Play!</a></p>
+          <Parallax className="border" imageSrc="http://i1028.photobucket.com/albums/y348/f1nalfortune/home_zpszwzbua01.jpg" strength={400}>
           </Parallax>
           <Footer 
             copyrights={ <i className="fa fa-copyright" aria-hidden="true">BananaBoltProductions</i>}

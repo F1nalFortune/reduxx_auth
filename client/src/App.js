@@ -19,7 +19,7 @@ const App = () => (
              <Route exact path="/game" component={Game}/>
              <Route exact path="/about" component={About}/>
              <Route exact path="/login" component={Login} />
-             <Route exact path="/register" component={Register} />
+             <ProtectedRoute exact path="/register" component={Register} />
              <Route component={NoMatch} />
           </Switch>
         </FetchUser>

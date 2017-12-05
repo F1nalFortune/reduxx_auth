@@ -40,7 +40,7 @@ class NavBar extends Component {
 
   render() {
     return (
-      <div>
+      <div id="nav-bar">
         <Menu pointing secondary>
           <Link to='/'>
             <Menu.Item
