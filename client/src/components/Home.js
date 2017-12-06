@@ -35,10 +35,10 @@ class Home extends React.Component{
               </span>
             <div className="row">
               <div className="col s12 l5 offset-l1">
-                <img id="screenshot" src="http://i1028.photobucket.com/albums/y348/f1nalfortune/Start_Screen_zpsgihxg5rd.png" />
+                <img id="screenshot" src="http://i1028.photobucket.com/albums/y348/f1nalfortune/Start_Screen_zpsgihxg5rd.png" alt="homescreen"/>
               </div>
               <div className="col s12 l5">
-                <img id="screenshot" src="http://i1028.photobucket.com/albums/y348/f1nalfortune/Gorilla_zpsmylatux4.png" />
+                <img id="screenshot" src="http://i1028.photobucket.com/albums/y348/f1nalfortune/Gorilla_zpsmylatux4.png" alt="game_play" />
               </div>
             </div>
         </div>

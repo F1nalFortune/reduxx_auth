@@ -16,6 +16,10 @@
   text-shadow: 2px 3px black;
 }
 
+#icon{
+  width:30% !important;
+}
+
 #play-button{
   margin-top:10px;
   font-size: 3vw;

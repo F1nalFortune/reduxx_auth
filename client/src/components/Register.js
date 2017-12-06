@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Button, Form, Segment, Header } from 'semantic-ui-react';
 import { handleRegister} from '../actions/auth';
 import { connect } from 'react-redux';
-import { Card, Row, Col } from 'react-materialize';
 import { Parallax } from 'react-materialize';
 import { Footer } from 'react-materialize';
 
